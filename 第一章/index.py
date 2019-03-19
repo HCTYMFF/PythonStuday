@@ -42,4 +42,7 @@ if __name__=='__main__':
     print (type(True))#type可以进行类别判断
     i=6
     print(i.__doc__)#__doc__是每个Python的对象属性，这个属性描述这个对象的作用
+    #><>=<=的优先级 大于==和！=
+    #python的逻辑运算  and or not ，在java中是&&  || ！
+
 
