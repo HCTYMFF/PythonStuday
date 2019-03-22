@@ -45,3 +45,6 @@ for i in range(len(eryuanzu)):
         print(eryuanzu[i][j],end=" ")
 
 
+
+
+
