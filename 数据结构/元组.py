@@ -2,6 +2,7 @@
 #元组的定义
 tuple=(1,23,3,45,56,34,"abc")
 print(tuple)
+print("tuple[2]=",tuple[2])
 for x in tuple:
     print (x,end=" ")
 
