@@ -66,3 +66,17 @@ duilie.append("b")
 print("duilie",duilie)
 duilie.pop(0)
 print("duilie",duilie)
+
+
+#序列
+'''
+序列是具有分片和索引的集合
+元素  列表 字符串都是属于序列
+
+'''
+xulielist=['1','aaa','ddd','ccc','xxx']
+xulietuple=('111','222','333','444','555','666','777','888','999')
+xuliestr="abcdedalhiss"
+print(xulielist[:3])
+print(xulietuple[1:-1])
+print(xuliestr[3:6])

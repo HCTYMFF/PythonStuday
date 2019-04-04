@@ -109,7 +109,7 @@ print(sorted(dict.items(),key=lambda d:d[0]))
 #按照value进行排序
 print(sorted(dict.items(),key=lambda  d:d[1]))
 
-#copy() 函数
+#copy() 模块和函数
 #dict2=dict.copy() 将dict的内容复制给dict2 ，并清除原先dict2的内容
 
 #深度拷贝
