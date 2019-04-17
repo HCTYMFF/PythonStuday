@@ -94,7 +94,6 @@ print(tihuan.replace("Yao","Buhuang"))#将字符串中的Yao替换为Buhuang
 print(tihuan.replace("e","A"))#将字符串中的所有e替换为A
 print(tihuan.replace("e","A",1))#将字符串中的e替换为A 仅仅替换第一个出现的e
 
-
 #字符串 与日期的替换
 import time,datetime
 
