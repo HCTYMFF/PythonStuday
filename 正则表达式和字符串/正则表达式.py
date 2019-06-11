@@ -29,6 +29,24 @@ search（pattern，string，flag）#在字符串中反复查找pattern规定的�
 import re
 '''
 re 模块学习
+Python中字符串前面加上 r 表示原生字符串 不需要转义
+
+1、match
+re.match(pattern, string[, flags])  
+从首字母开始开始匹配，string如果包含pattern子串，则匹配成功，返回Match对象，失败则返回None，若要完全匹配，pattern要以$结尾。
+
+2、search
+re.search(pattern, string[, flags])  
+若string中包含pattern子串，则返回Match对象，否则返回None，注意，如果string中存在多个pattern子串，只返回第一个。
+
+3、findall
+re.findall(pattern, string[, flags])  
+返回string中所有与pattern相匹配的全部字串，返回形式为数组。
+
+4、finditer
+re.finditer(pattern, string[, flags])  
+返回string中所有与pattern相匹配的全部字串，返回形式为迭代器。
+
 '''
 
 s="hello World"
